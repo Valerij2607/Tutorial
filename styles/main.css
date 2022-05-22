@@ -1,0 +1,17 @@
+body {
+    background-color: tomato;
+}
+ .title {
+    font-family: 'Tangerine', cursive;
+
+  }
+  .hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+  }
+  .hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+   
+    padding: 3px; /* Поля вокруг текста */
+  }
