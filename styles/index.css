@@ -1,17 +1,18 @@
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    width: 1600px; 
+    height: 2349px;
 }
-.header {
-    width: 1600px;
-    height: 98px;
-    background-color: gold;
-}
+
 .navigation {
     position: absolute;
     width: 1600px;
     height: 98px;
     left: 0px;
     top: 0px;
+}
+a {
+text-decoration: none;
 }
 .logo-color {
     color: #2196F3;
@@ -21,13 +22,14 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
+    margin-left: 50px;
+    color: #000000;
 }
 
 .navigation-list {
     list-style-type: none;
+
 }
-
-
 
 .navigation-item-blue {
     font-family: 'Roboto';
@@ -51,6 +53,7 @@ body {
     width: 1600px;
     height: 600px;
     background-color: #2F303A;
+    margin-top: 50px;
 
 }
 .hero {
@@ -269,6 +272,11 @@ color: #212121;
 }
 .footer-logo-color {
     color: #FFFFFF;
+}
+.footer-navigation-list {
+    list-style-type: none;  
+    color: #FFFFFF;
+    
 }
 .adress-list {
     position: absolute;
